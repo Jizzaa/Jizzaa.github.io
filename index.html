@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
     html {
       scroll-behavior:smooth;
@@ -13,9 +14,17 @@
         position:fixed;
         text-align:center;
       }
+      
       nav li a {
         text-decoration:none;
+        transition:0.67s;
+        
       }
+      
+      nav li a:hover {
+        color:yellow;
+      }
+      
       body {
         margin:0;
       }
@@ -29,15 +38,29 @@
       nav li {
         list-style:none;
       }
+      
       nav img {
         width:150px;
         border-radius:50%;
         border:solid yellow;
         border-width:5px;
       }
+      
+      #about i {
+        color:white;
+        font-size:45px;
+        background-color:blue;
+        width:67px;
+        height:67px;
+        padding-top:10px;
+        box-sizing:border-box;
+        border-radius:50%;
+      }
+      
       ul {
         padding:0;
       }
+      
       main {
         padding-left:240px;
         padding-top:200px;
@@ -61,9 +84,15 @@
     <main>
 
       <section id='about'>About
-      <h1>Lebron Daddy</h1>
-      <p><a href="mailto:mr.jomo65@gmail.com">thegoat@gmail.com</a></p>
+        <h1>Lebron Daddy</h1>
+        <p><a href="mailto:mysunshine@gmail.com">thegoat@gmail.com</a></p>
+        
+        <p>
+          <a href="https://github.com/Jizzaa">
+            <i class="fa-brands fa-github"></i></p>
+        </a>
       </section>
+      
       <section id='experience'>Experiences</section>
       <section id='education'>Education</section>
       <section id='skills'>Skills</section>
@@ -71,8 +100,6 @@
       <section id='awards'>Awards</section>
       
     </main>
-    
-    <!--<section>Content</section>-->
     
     
   </body>
